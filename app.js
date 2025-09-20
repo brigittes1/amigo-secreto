@@ -25,5 +25,3 @@ function agregarAmigo() {
   // 5. Limpiar el input
   input.value = "";
   input.focus();
-}
-
