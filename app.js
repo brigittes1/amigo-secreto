@@ -7,7 +7,7 @@ function agregarAmigo() {
   let input = document.getElementById("Amigo"); // ojo, tu HTML usa "Amigo" con A mayúscula
   let nombre = input.value.trim();
 
-  // 2. Validar la entrada
+ // 2. Validar la entrada
   if (nombre === "") {
     alert("Por favor, inserte un nombre.");
     return;
@@ -27,16 +27,3 @@ function agregarAmigo() {
   input.focus();
 }
 
-// Función para sortear un amigo secreto
-function sortearAmigo() {
-  if (amigos.length < 2) {
-    alert("Debes agregar al menos 2 amigos para sortear.");
-    return;
-  }
-
-  let indice = Math.floor(Math.random() * amigos.length);
-  let amigoSorteado = amigos[indice];
-
-  let resultado = document.getElementById("resultado");
-  resultado.innerHTML = `<li>🎉 El amigo secreto es: <strong>${amigoSorteado}</strong></li>`;
-}
