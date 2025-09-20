@@ -22,3 +22,12 @@ Permite a los usuarios ingresar nombres de amigos en una lista, verlos en pantal
 ---
 
 ## 📂 Estructura del proyecto
+proyecto-amigo-secreto/
+│── index.html # Página principal de la aplicación
+│── style.css # Estilos de la interfaz (colores, tipografías, layout)
+│── app.js # Lógica en JavaScript (agregar, mostrar y sortear amigos)
+│── assets/ # Carpeta de imágenes e íconos usados en la app
+│ ├── amigo-secreto.png
+│ ├── play_circle_outline.png
+│ └── (otras imágenes)
+│── README.md # Documentación del proyecto
