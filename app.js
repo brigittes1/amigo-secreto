@@ -4,7 +4,7 @@ let amigos = [];
 // Función para agregar amigos
 function agregarAmigo() {
   // 1. Capturar el valor del input
-  let input = document.getElementById("Amigo"); 
+  let input = document.getElementById("amigo"); 
   let nombre = input.value.trim();
 
  // 2. Validar la entrada
@@ -39,6 +39,7 @@ function sortearAmigo() {
 
   let resultado = document.getElementById("resultado");
   resultado.innerHTML = `<li>🎉 El amigo secreto es: <strong>${amigoSorteado}</strong></li>`;
+
 
 
 
